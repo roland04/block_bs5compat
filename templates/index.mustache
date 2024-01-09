@@ -47,3 +47,22 @@
     <span class="badge badge-dark mr-2">Dark</span>
     <span class="badge badge-primary badge-pill mr-2">Badge pill</span>
 </div>
+
+{{! .form component example }}
+<h2 class="h3 mt-5">Examples of forms</h2>
+
+<div class="form-group">
+    <label for="formGroupExampleInput">Example label</label>
+    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+</div>
+
+<form class="form-inline">
+    <div class="form-group">
+        <label class="accesshide" for="test">{{#str}}search{{/str}}</label>
+        <input type="text" class="form-control" id="test" placeholder="{{#str}}search{{/str}}" value="">
+        <button class="btn btn-secondary icon-no-margin ml-1">{{#pix}}a/search, ,{{#str}}search{{/str}}{{/pix}}</button>
+    </div>
+</form>
+
+
+
